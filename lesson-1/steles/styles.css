@@ -1,0 +1,27 @@
+
+.main-container {margin: auto;}
+h1 {font-family: 'Bebas Neue', cursive;}
+h3 {color: blueviolet;}
+.sidebar-title {color:yellow;
+    font-style: normal;
+font-size: 22px;}
+.phone {color: red;
+padding: 15px;}
+.email {color: red;
+padding: 15px;}
+body {font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;}
+.contact, .hard, .soft {margin-left: 40px;}
+.main {display: flex;
+flex-direction: row-reverse;
+background-color: rgba(200, 255, 0, 0.254);
+weight: 1300px;
+margin: auto;}
+.sidebar {background-color: rgba(3, 197, 197, 0.391);
+padding-top: 30px;
+weight: 250px}
+.photo {margin-bottom: 50px;}
+.mobile {color: blue;}
+.mobile1 {color: blue;}
+.perechislenie1 {color: blue;}
+.perechislenie {color: blue}
