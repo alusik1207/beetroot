@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lesson 3</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#cv">my CV</a></li>
+          <li><a href="#new_elements">new elements</a></li>
+          <li>
+            <a href="#section"> <code>&lt;section&gt;</code></a>
+          </li>
+          <li>
+            <a href="#article"><code>&lt;article&gt;</code></a>
+          </li>
+          <li>
+            <a href="#header"><code>&lt;header&gt;</code></a>
+          </li>
+          <li>
+            <a href="#footer"><code>&lt;footer&gt;</code></a>
+          </li>
+        </ul>
+        <form>
+          <input type="text" placeholder="login" id="login" />
+          <input type="password" placeholder="password" id="password" />
+          <button type="submit">OK</button>
+          <button type="reset">Delete</button>
+        </form>
+
+        <select>
+          <option value="Ukraine">Ukraine</option>
+          <option value="Polska">Polska</option>
+          <option value="USA">USA</option>
+        </select>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>HTML5 Семантичні елементи</h1>
+
+        <p>
+          Семантичний елемент чітко описує його значення як для браузера, так й
+          для розробника.
+        </p>
+        <p>
+          Приклади не семантичних елементів: <code>&lt;div&gt;</code> та
+          <code>&lt;span&gt;</code> - нічого не говорить про його вміст.
+        </p>
+        <p>
+          Приклади семантичних елементів: <code>&lt;form&gt;</code>,
+          <code>&lt;table&gt;</code> та <code>&lt;article&gt;</code> - чітко
+          визначає його зміст.
+        </p>
+      </section>
+      <section>
+        <h2>Підтримка браузерів</h2>
+        <img src="site.jpeg" alt="brousers" />
+        <p>
+          Семантичні елементи HTML5 підтримуються у всіх сучасних браузерах.
+        </p>
+        <p>
+          Крім того, ви можете "навчити" старих браузерів, як обробляти
+          "невідомі елементи".
+        </p>
+        <p>
+          Прочитайте про це в
+          <a
+            href="https://www.blogger.com/blog/page/edit/2590532390801722394/850003172824707311#"
+          >
+            підтримці браузера HTML5 .</a
+          >
+        </p>
+      </section>
+      <section>
+        <h2 id="new_elements">Нові семантичні елементи в HTML5</h2>
+        <p>
+          HTML5 пропонує нові семантичні елементи для визначення різних частин
+          веб-сторінки:
+        </p>
+        <ul>
+          <li><code>&lt;section&gt;></code></li>
+          <li><code>&lt;article&gt;</code></li>
+          <li><code>&lt;header&gt;</code></li>
+          <li><code>&lt;footer&gt;</code></li>
+        </ul>
+      </section>
+      <section>
+        <h2 id="section">HTML5 <code>&lt;section&gt;</code> елемент</h2>
+        <p>Елемент <code>&lt;section&gt;</code> визначає розділ в документі.</p>
+        <p>
+          Згідно з документацією в3к'с HTML5: "розділ представляє собою
+          тематичну угруповання контенту, зазвичай з заголовком".
+        </p>
+        <p>
+          Домашня сторінка зазвичай може бути розділена на розділи для
+          ознайомлення, змісту і контактної інформації.
+        </p>
+        <img src="example1.jpg" alt="example" />
+      </section>
+      <section>
+        <h2 id="article">HTML5 <code>&lt;article&gt;</code> елемент</h2>
+        <p>
+          Елемент <code>&lt;article&gt;</code> визначає незалежний, автономний
+          вміст.
+        </p>
+        <p>
+          Стаття повинна мати сенс самостійно, і вона повинна мати можливість
+          читати його незалежно від іншої частини веб-сайту.
+        </p>
+        <p>
+          Приклади того, де можна використовувати елемент
+          <code>&lt;article&gt;</code>:
+        </p>
+        <ul>
+          <li>Повідомлення на форумі</li>
+          <li>блозі</li>
+          <li>Газетна стаття</li>
+        </ul>
+        <img src="example2.jpg" alt="example" />
+      </section>
+      <section>
+        <h2 id="header">HTML5 <code>&lt;header&gt;</code> елемент</h2>
+        <p>
+          Елемент <code>&lt;header&gt;</code> задає заголовок для документа або
+          розділу.
+        </p>
+        <p>
+          Елемент <code>&lt;header&gt;</code>повинен використовуватися в якості
+          контейнера для вступного змісту.
+        </p>
+        <p>
+          В одному документі може бути кілька елементів
+          <code>&lt;header&gt;</code>.>. У наступному прикладі визначається
+          заголовок для статті:
+        </p>
+        <img src="example3.jpg" alt="example" />
+      </section>
+      <section>
+        <h2 id="footer">HTML5 <code>&lt;footer&gt;</code> елемент</h2>
+        <p>
+          Елемент <code>&lt;footer&gt;</code>вказує нижній колонтитул для
+          документа або розділу.
+        </p>
+        <p>
+          Нижній колонтитул зазвичай містить автора документа, інформацію про
+          авторське право, посилання на умови використання, контактні дані і
+          т.д.
+        </p>
+        <p>
+          В одному документі може бути кілька елементів
+          <code>&lt;footer&gt;</code>.
+        </p>
+        <img src="example.jpg" alt="example" />
+      </section>
+    </main>
+    <footer>
+      <section>
+        <h3>
+          Також завдяки тегу <code>&lt;iframe&gt;</code> можна додати будь-який
+          HTML-код у віконці, як моє резюме:
+        </h3>
+        <iframe
+          src="../lesson-1/"
+          frameborder="0"
+          id="cv"
+          width="1097"
+          height="617"
+        >
+        </iframe>
+        <p>
+          Це все ви можете вивчити на курсі у beetroot-академії. Ось трошки про
+          школу:
+        </p>
+        <iframe
+          width="1097"
+          height="617"
+          src="https://www.youtube.com/embed/FII4DRuiLLI"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </footer>
+  </body>
+</html>
