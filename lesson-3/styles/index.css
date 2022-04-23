@@ -1,0 +1,39 @@
+.backgraund-all {
+background-color: rgb(181, 195, 206);
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: blue;
+font-weight: normal;
+
+}
+header {
+    background-color: lightblue;
+    margin: 0px;
+    text-decoration: none;
+    color: rgb(40, 40, 47);
+    height: 100px;
+    
+}
+
+nav {text-align: center;
+}
+
+.list {
+    display: inline;
+    color: #000;
+}
+li {color: #000;}
+a {text-decoration: none;
+    color: #000;}
+form {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 100px;
+    background-color: rgba(0, 255, 119, 0.424);
+    width: 200px;
+    border: 0;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px black;
+    
+}
