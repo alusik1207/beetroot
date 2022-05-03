@@ -1,7 +1,145 @@
-.container{
+body {
+    margin: 0;
+    height: 200vh;
+    box-sizing: border-box;
+}
+
+header {
+ top: 0;
+width: 100%;
+height: 50px;
+position: fixed;
+background-color: antiquewhite;
+z-index: 1;
+}
+ul {
+    margin: 0;
+}
+li {
+    display: inline-block;
+}
+h1 {
+    margin: 0;
+    margin-top: 150px;
+    text-align: center;
+}
+main  {
+    width: 1080px;
+    height: 1000px;
+    margin: 0 auto;
+}
+div {
+    display: inline-block;
+}
+
+.blue {
+    margin: 75px;
+    width: 150px;
+    height: 400px;
+    background-color: rgb(165, 212, 233);
+}
+.green {
+    margin: 75px;
+    width: 150px;
+    height: 400px;
+    background-color: rgb(165, 212, 233);
+
+}
+.red {
+    margin: 75px;
+    width: 150px;
+    height: 400px;
+    background-color: rgb(165, 212, 233) ;
+}
+.blue1{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: sticky;
+    top: 75px;
+
+}
+.green1 {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: sticky;
+    top: 95px;
+}
+.red1 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: sticky;
+    top: 115px;
+}
+.blue1:hover {
+    transform: scale(2);
+    transition: ease-in-out 3s;
+
+}
+.green1:hover {
+    transform: scale(2);
+    transition: ease-in-out 3s; 
+}
+.red1:hover {
+    transform: scale(2);
+    transition: ease-in-out 3s; 
+}
+/*.block {
     width: 700px;
     height: 300px;
+    color: white;
+    background-color: blue;
     border: 5px solid black;
     padding: 10px;
     box-sizing: border-box;
+    z-index: 3;
+}*/
+
+.block-2 {
+    position: relative;
+    left: 50px
+    
+}
+.block-3 {
+    background-color: green;
+    width: 150px;
+    height: 75px;
+    color: white;
+    position: fixed; 
+    overflow-y: scroll;
+    z-index: 1;
+}
+.parent-container {
+    width: 400px;
+    height: 800px;
+    background-color: aqua;
+}
+.sticky-element {
+    position: sticky;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+
+}
+.test-1 {
+    height: 40px;
+    width: 100px;
+    background-color: yellow;
+    margin-top: 100px;
+    transform: translateX(20px);
+    display: inline-block;
+    margin-left: 50%;
+    ;
+}
+
+.test-2 {
+    background-color: blue;
+    transform: rotate(45deg);
+}
+.test-1:hover {
+    transform: scale(2);
+    transition: ease-in-out 0,3s;
 }

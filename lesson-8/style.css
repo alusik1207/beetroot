@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+header {
+    max-width: 1400px;
+    padding: 0 143px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links-buttom {
+display: flex;
+}
+.links {
+    margin-right: 40px;
+}
+.container {
+    width: 700px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.item {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
