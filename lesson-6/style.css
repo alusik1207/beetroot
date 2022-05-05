@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+}
+.container {
+  max-width: 1920px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rotaled-block {
+  width: 440px;
+  height: 280px;
+  background-image: url(./assets/facebook.jpg);
+}
+.rotaled-block:hover {
+  background-image: url(./assets/facebook1.jpg);
+  transform: rotateX(360deg);
+  transition: ease-in-out 3s;
+}
+.rotaled-block1 {
+  width: 440px;
+  height: 280px;
+  background-image: url(./assets/instagram_light.png);
+}
+.rotaled-block1:hover {
+  background-image: url(./assets/Instagram1.png);
+  transform: rotateX(360deg);
+  transition: ease-in-out 3s;
+}
+.rotaled-block2 {
+  width: 440px;
+  height: 280px;
+  background-image: url(./assets/Shopify.png);
+}
+.rotaled-block2:hover {
+  background-image: url(./assets/Shopify1.png);
+  transform: rotateX(360deg);
+  transition: ease-in-out 3s;
+}
+.rotaled-block3 {
+  width: 440px;
+  height: 280px;
+  background-image: url(./assets/Skype.jpg);
+}
+.rotaled-block3:hover {
+  background-image: url(./assets/Skype1.jpg);
+  transform: rotateX(360deg);
+  transition: ease-in-out 3s;
+}
+.rotaled-block4 {
+  width: 440px;
+  height: 280px;
+  background-image: url(./assets/Pinterest.jpg;)
+  }
+  .rotaled-block4:hover {
+    background-image: url(./assets/Pinterest1.jpg);
+  transform: rotateX(360deg);
+  transition: ease-in-out 3s;
+}
+.rotaled-block5 {
+  width: 440px;
+  height: 280px;
+  background-image: url(./assets/Wix.jpg);
+}
+.rotaled-block5:hover {
+  background-image: url(./assets/Wix1.jpg);
+  transform: rotateX(360deg);
+  transition: ease-in-out 3s;
+}
+.rotaled-block6 {
+  width: 440px;
+  height: 280px;
+  background-image: url(./assets/Salesforce.jpg);
+}
+.rotaled-block6:hover {
+  background-image: url(./assets/Salesforce1.jpg);
+  transform: rotateX(360deg);
+  transition: ease-in-out 3s;
+}
+.rotaled-block7 {
+  width: 440px;
+  height: 280px;
+  background-image: url(./assets/facebook1.jpg);
+}
+.rotaled-block7:hover {
+  background-image: url(./assets/facebook1.jpg);
+  transform: rotateX(360deg);
+  transition: ease-in-out 3s;
+}
