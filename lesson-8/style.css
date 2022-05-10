@@ -1,10 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url(./fonts/Roboto-Bold.ttf) format('truetype');
+}
 * {
   box-sizing: border-box;
 }
 body {
+  max-width: 1440px;
+  margin: 0 auto;
   margin: 0;
   padding-bottom: 83px;
+  font-family: Poppins;
 }
+h1,
+h2,
+h3,
+h4,
+h6,
+p
+{
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+  font-family: Roboto-Bold;
+}
+
 header {
   max-width: 1440px;
   height: 78px;
@@ -24,11 +51,9 @@ header {
 }
 .links {
   margin-right: 40px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0px;
 }
 button {
   cursor: pointer;
@@ -39,11 +64,9 @@ button {
   left: 0px;
   top: 0px;
   border-radius: 4px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  letter-spacing: 0px;
   text-align: center;
   color: #2f281e;
 }
@@ -70,22 +93,23 @@ a {
   text-decoration: none;
   color: black;
 }
-
+main {
+  margin: 0 ;
+  margin-left: 145px;
+  margin-top: 128px;
+}
 .block-1 {
   height: 494px;
   width: 1125px;
-  margin-left: 145px;
-  margin-top: 128px;
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .first {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 54px;
-  letter-spacing: 0px;
   text-align: left;
 }
 .text-1 {
@@ -93,11 +117,11 @@ a {
   width: 458px;
   left: 145px;
   top: 349px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-top: 30px;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0px;
+
   text-align: left;
   color: #544837;
 }
@@ -109,19 +133,140 @@ a {
   border-radius: 4px;
   background-color: #ff9900;
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
-  letter-spacing: 0px;
   text-align: center;
 }
 .video {
   margin-left: 30px;
 }
+.feature {
+  height: 494px;
+  width: 1125px;
+
+}
+.feature-title {
+width: 539px;
+margin: 0 auto;
+font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+text-align: center;
+margin-top: 111px;
+margin-bottom: 54px ;
+
+}
+.block2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 140px;
+}
+i {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.fa-arrow-pointer {
+  color: violet;
+}
+.fa-water{
+  color: orange;
+}
+.fa-heart-pulse {
+  color: red;
+}
+.fa-hourglass {
+  color: blue;
+}
+.now {
+  text-align: center;
+  height: 53px;
+width: 175px;
+left: 0px;
+top: 0px;
+border-radius: 4px;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+
+}
+.knopka {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.block3 {
+  display: flex;
+  align-items: center;
+  margin-top: 236px;
+}
+.container3 {
+  height: 531px;
+width: 486px;
+
+}
+h3 {
+font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+margin-top: 3px;
+margin-bottom: 22px;
+
+}
+h6 {
+
+font-size: 16px;
+font-weight: 700;
+line-height: 26px;
+margin-top: 30px;
+margin-bottom: 12px;
+
+
+}
+.container3-paragraph {
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+text-align: left;
+
+}
+.paragrafe {
+  line-height: 24px;
+  color: #544837;
+
+}
+.for-flex {
+  display: flex;
+  align-items: center;
+  margin-top: 140px;
+}
+.block4 {
+  margin-top: 22px;
+  width: 486px;
+  height: 78px;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+text-align: left;
+
+}
+.checked-image {
+  list-style-image: url(./assets/checked.svg);
+}
+.link-block4 {
+  margin-top: 30px;
+  padding-left: 30px;
+  width: 365px;
+  height: 52px;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+text-align: left;
+
+}
 footer {
   margin: 0 auto;
-  width: 1109px;
+  max-width: 1440px;
   padding: 160px 0;
   display: flex;
   justify-content: space-between;
@@ -135,11 +280,9 @@ ul {
 }
 .text-finish {
   height: 140px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 35px;
-  letter-spacing: 0px;
   text-align: left;
 }
 .finish {
@@ -149,11 +292,9 @@ ul {
   height: 39px;
   width: 131px;
   border-radius: 4px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
-  letter-spacing: 0px;
   text-align: center;
 }
 
