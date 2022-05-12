@@ -3,6 +3,9 @@
   src: url(./font/Gilroy-Bold.ttf) format("truetype"),
     url(./font/Gilroy-Medium.ttf);
 }
+* {
+    box-sizing: border-box;
+}
 body {
   margin: 0;
   padding: 0 250px;
