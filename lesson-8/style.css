@@ -61,6 +61,7 @@ button {
 .sign {
   height: 46px;
   width: 110px;
+  /* TODO top i left тут лишні, оскільки вони не будуть працювати поки не задати position */
   left: 0px;
   top: 0px;
   border-radius: 4px;
