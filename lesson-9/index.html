@@ -21,10 +21,12 @@
           <li><a href="#" class="link">Contacts</a></li>
         </ul>
       </nav>
+     <div><img src="" alt=""></div>
     </header>
     <hr />
     <main>
       <div class="home">
+        <div class="burger-menu-size" id=""><img src="./assets/burger.svg" alt="menu" class="burger-menu" /></div>
         <h1>Denis Novik</h1>
         <p class="about-me">UX | UI designer 24 years old, Minsk</p>
         <p class="lang">RU | ENG</p>
@@ -50,24 +52,23 @@
         <h2>Skills</h2>
         <p class="programs">I work in such programs as</p>
         <div class="skills">
-          <!-- TODO по дизайну тут треба більші відступи зробити для блоків -->
-          <div class="skills">
-            <img src="./assets/ps.svg" alt="" />
+          <div class="skills-block">
+            <img src="./assets/ps.svg" alt="" class="ps" />
             <p class="skills-container">Adobe Photoshop</p>
             <img src="./assets/star.svg" alt="" class="star" />
           </div>
-          <div class="skills">
-            <img src="./assets/ai.svg" alt="" />
+          <div class="skills-block">
+            <img src="./assets/ai.svg" alt=""  class="ai"/>
             <p class="skills-container">Adobe Illustrator</p>
             <img src="./assets/star3.svg" alt="" class="star" />
           </div>
-          <div class="skills">
-            <img src="./assets/ae.svg" alt="" />
+          <div class="skills-block">
+            <img src="./assets/ae.svg" alt="" class="ae" />
             <p class="skills-container">Adobe After Effects</p>
             <img src="./assets/star.svg" alt="" class="star" />
           </div>
-          <div class="skills">
-            <img src="./assets/figma.svg" alt="" />
+          <div class="skills-block">
+            <img src="./assets/figma.svg" alt="" class="figma" />
             <p class="skills-container">Figma</p>
             <img src="./assets/star.svg" alt="" class="star" />
           </div>
@@ -75,15 +76,21 @@
       </div>
       <div class="block3">
         <h2 class="portfolio">Portfolio</h2>
-        <img src="./assets/portfolio1.png" alt="" />
+        <div class="foto-portfolio">
+          <img src="./assets/portfolio1.png" alt="" />
+        </div>
         <p class="opisanie">
           <a href="#" class="link">Online fashion store - Homepage</a>
         </p>
-        <img src="./assets/portfolio2.png" alt="" />
+        <div class="foto-portfolio">
+          <img src="./assets/portfolio2.png" alt="" />
+        </div>
         <p class="opisanie">
           <a href="#" class="link">Reebok Store - Concept</a>
         </p>
-        <img src="./assets/portfolio3.png" alt="" />
+        <div class="foto-portfolio">
+          <img src="./assets/portfolio3.png" alt="" />
+        </div>
         <p class="opisanie">
           <a href="#" class="link">Braun Landing Page - Concept</a>
         </p>
@@ -101,16 +108,16 @@
           <a href="mailto:alusik1207@gmail.com" class="message">Send message</a>
         </button>
         <div class="contacts-icon">
-          <!-- TODO для іконок ми використовуємо тільки svg, а в тебе тут і png i jpg -->
-          <img src="./assets/link.svg" alt="" class="icon" />
-          <img src="./assets/insta.png" alt="" class="icon" />
-          <img src="./assets/be.svg" alt="" class="icon" />
-          <img src="./assets/Vector.jpg" alt="" />
+          <div class="icon-container"> <img src="./assets/link.svg" alt="" class="icon" /></div>
+          <div class="icon-container"><img src="./assets/insta.svg" alt="" class="icon" /></div>
+          <div class="icon-container"><img src="./assets/be.svg" alt="" class="icon" /></div>
+          <div class="icon-container"><img src="./assets/vector.svg" alt="" class="icon"/></div>
         </div>
         <p class="contacts-opisanie">
           Like me on LinkedIn, Instagram, Behance, Dribble
         </p>
       </div>
     </footer>
+    <script src=“./main.js”></script>
   </body>
 </html>

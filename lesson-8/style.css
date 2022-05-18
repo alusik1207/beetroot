@@ -41,6 +41,12 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+@media screen and (max-widht:1200px) {
+  header{
+  padding: 0 80px;
+}
+}
+
 .logo {
   width: 185px;
   height: 32px;
