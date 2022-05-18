@@ -28,7 +28,7 @@ p {
   margin: 0;
 }
 
-ul {
+.desktop-version {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,7 +46,7 @@ ul {
 }
 
 @media screen and (max-width: 992px) {
-  ul {
+  .desktop-version {
     display: none;
   }
 }
@@ -105,8 +105,11 @@ a:hover {
 
 .mobile-menu {
   width: 375px;
+  background-color: #fff;
   display: none;
   position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .burger-menu-size {
@@ -122,6 +125,14 @@ a:hover {
   .burger-menu-size {
     display: block;
   }
+}
+
+.mobile-link {
+  text-decoration: none;
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: left;
 }
 
 h1 {
@@ -157,6 +168,19 @@ h1 {
 @media screen and (max-width: 992px) {
   .lang {
     display: none;
+  }
+}
+
+.lang-mobile {
+  display: none;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+@media screen {
+  .lang-mobile {
+    max-width: 992px;
+    display: block;
   }
 }
 
