@@ -20,12 +20,6 @@ body {
   }
 }
 
-@media screen and (max-width: 500px) {
-  body {
-    padding: 0 24px;
-  }
-}
-
 h1,
 h2,
 h3,
@@ -95,6 +89,24 @@ a:hover {
         -ms-flex-align: start;
             align-items: flex-start;
   }
+}
+
+.close-button {
+  width: 22px;
+  height: 22px;
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .close-button {
+    display: block;
+  }
+}
+
+.mobile-menu {
+  width: 375px;
+  display: none;
+  position: absolute;
 }
 
 .burger-menu-size {
@@ -258,6 +270,13 @@ h2 {
         -ms-flex-pack: center;
             justify-content: center;
     gap: 50px;
+    padding-left: 40%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .skills {
+    padding-left: 25%;
   }
 }
 
@@ -269,6 +288,14 @@ h2 {
   line-height: 17px;
   text-align: center;
   color: #828282;
+}
+
+.ps,
+.ai,
+.ae,
+.figma {
+  width: 89px;
+  height: 89px;
 }
 
 .star {
@@ -367,6 +394,12 @@ button {
       -ms-flex-pack: justify;
           justify-content: space-between;
   gap: 70px;
+}
+
+@media screen and (max-width: 500px) {
+  .contacts-icon {
+    padding: 0 29px;
+  }
 }
 
 .icon-container {
