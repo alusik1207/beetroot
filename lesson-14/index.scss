@@ -10,55 +10,49 @@
    
     
 }
+.item:hover {
+  animation-name: loop;
+  animation-play-state: paused;
+}
+.item-1{
 
-.item:hover .item-1{
-  background: url(./assets/tuz.svg) no-repeat;
-  transform: rotateY(180deg);
   animation: loop 4s ease-in forwards infinite 1s;
 }
-.item:hover .item-2{
-  background: url(./assets/tuz.svg) no-repeat;
-  transform: rotateY(180deg);
+.item-2{
+ 
   animation: loop 4s ease-in forwards infinite 3s;
 }
 
-.item:hover .item-3{
-  background: url(./assets/tuz.svg) no-repeat;
-  transform: rotateY(180deg);
+.item-3{
+
   animation: loop 4s ease-in forwards infinite 5s;
 }
-.item:hover .item-4{
-  background: url(./assets/tuz.svg) no-repeat;
-  transform: rotateY(180deg);
+.item-4{
+
   animation: loop 4s ease-in forwards infinite 7s;
 }
-.item:hover .item-5{
-  background: url(./assets/tuz.svg) no-repeat;
-  transform: rotateY(180deg);
+.item-5{
+
   animation: loop 4s ease-in forwards infinite 9s;
 }
-.item:hover .item-6{
-  background: url(./assets/tuz.svg) no-repeat;
-  transform: rotateY(180deg);
+.item-6{
+
   animation: loop 4s ease-in forwards infinite 11s;
 }
-.item:hover .item-7{
-  background: url(./assets/tuz.svg) no-repeat;
-  transform: rotateY(180deg);
+.item-7{
   animation: loop 4s ease-in forwards infinite 13s;
 }
-.item:hover .item-8{
-  background: url(./assets/tuz.svg) no-repeat;
-  transform: rotateY(180deg);
+.item-8{
   animation: loop 4s ease-in forwards infinite 15s;
 }
+
 @keyframes loop {
 0% {
-  background: url(./assets/tuz.svg)
+  
   transform: rotateY(0deg);
 }
 100% {
-  background: url(./assets/tuz.svg)
+  background: url(./assets/tuz.svg);
   transform: rotateY(180deg);
 }
 }
