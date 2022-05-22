@@ -1,0 +1,47 @@
+.container {
+  display: grid;
+  grid-template-columns: 600px 600px ;
+  grid-template-rows:  repeat(8, 850px);
+
+}
+.item {
+    border: 1px solid black;
+    background-image: url(./assets/back-card.jpg);
+   
+    
+}
+
+.item-1{
+  animation: loop 4s ease-in forwards infinite 1s;
+}
+.item-2{
+  animation: loop 4s ease-in forwards infinite 3s;
+}
+
+.item-3{
+  animation: loop 4s ease-in forwards infinite 5s;
+}
+.item-4{
+  animation: loop 4s ease-in forwards infinite 7s;
+}
+.item-5{
+  animation: loop 4s ease-in forwards infinite 9s;
+}
+.item-6{
+  animation: loop 4s ease-in forwards infinite 11s;
+}
+.item-7{
+  animation: loop 4s ease-in forwards infinite 13s;
+}
+.item-8{
+  animation: loop 4s ease-in forwards infinite 15s;
+}
+@keyframes loop {
+0% {
+  transform: rotateY(0deg);
+}
+100% {
+  background: url(./assets/tuz.svg);
+  transform: rotateY(180deg);
+}
+}
