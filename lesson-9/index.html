@@ -13,26 +13,39 @@
   <body>
     <header>
       <nav>
-        <ul>
+        <ul class="desktop-version">
           <li><a href="#" class="link">Home</a></li>
-          <li><a href="#" class="link">About me</a></li>
-          <li><a href="#" class="link">Skills</a></li>
-          <li><a href="#" class="link">Portfolio</a></li>
-          <li><a href="#" class="link">Contacts</a></li>
+          <li><a href="#about_me" class="link">About me</a></li>
+          <li><a href="#skills" class="link">Skills</a></li>
+          <li><a href="#portfolio" class="link">Portfolio</a></li>
+          <li><a href="#contacts" class="link">Contacts</a></li>
         </ul>
       </nav>
-     <div><img src="" alt=""></div>
+     
+     <hr />
     </header>
-    <hr />
+   <div class="mobile-menu" id="mobile-menu">
+    <nav>
+      <div class="close-button" id="close-button"><img src="./assets/close_button.svg" alt=""></div>
+      <ul>
+        <li class="mobile-link"><a href="#" class="link">Home</a></li>
+        <li class="mobile-link"><a href="#about_me" class="link">About me</a></li>
+        <li class="mobile-link"><a href="#skills" class="link">Skills</a></li>
+        <li class="mobile-link"><a href="#portfolio" class="link">Portfolio</a></li>
+        <li lass="mobile-link"><a href="#contacts" class="link">Contacts</a></li>
+      </ul>
+    </nav>
+    <p class="lang-mobile">RU | ENG</p>
+  </div>
     <main>
       <div class="home">
-        <div class="burger-menu-size" id=""><img src="./assets/burger.svg" alt="menu" class="burger-menu" /></div>
+        <div class="burger-menu-size" id="burger"><img src="./assets/burger.svg" alt="menu" class="burger-menu" /></div>
         <h1>Denis Novik</h1>
         <p class="about-me">UX | UI designer 24 years old, Minsk</p>
         <p class="lang">RU | ENG</p>
       </div>
       <div class="foto"><img src="./assets/foto.png" alt="" /></div>
-      <div class="block1">
+      <div class="block1" id="about-me">
         <h2>About me</h2>
         <div class="container">
           <p class="about-me-CV">
@@ -48,7 +61,7 @@
           </p>
         </div>
       </div>
-      <div class="block2">
+      <div class="block2" id="slills">
         <h2>Skills</h2>
         <p class="programs">I work in such programs as</p>
         <div class="skills">
@@ -74,7 +87,7 @@
           </div>
         </div>
       </div>
-      <div class="block3">
+      <div class="block3" id="portfolio">
         <h2 class="portfolio">Portfolio</h2>
         <div class="foto-portfolio">
           <img src="./assets/portfolio1.png" alt="" />
@@ -97,8 +110,7 @@
       </div>
     </main>
     <footer>
-      <div class="contacts">
-        <!-- TODO блок contact наліз на блок contacts-paragraph -->
+      <div class="contacts" id="contacts">
         <h2 class="contact">Contacts</h2>
         <p class="contacts-paragraph">
           Want to know more or just chat? You are welcome!
