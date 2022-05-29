@@ -1,0 +1,459 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aleo&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  max-width: 1773px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+.block {
+  padding-left: 330px;
+  padding-right: 330px;
+  max-width: 1773px;
+  margin: 0 auto;
+  color: white;
+  position: relative;
+}
+
+.block-1 {
+  background: url(./assets/back1.png) no-repeat;
+  background-size: cover;
+  height: 820px;
+  padding-top: 277px;
+  text-align: center;
+}
+
+.company-about {
+  margin-top: 11px;
+  margin-bottom: 48px;
+  font-family: Josefin Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 6.8px;
+  text-align: center;
+}
+
+.bhromaon-title {
+  font-family: Josefin Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 4.8x;
+  text-align: center;
+}
+
+.bhromaon {
+  font-family: Josefin Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2.4px;
+  text-align: left;
+}
+
+.searching {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 107px;
+}
+
+input {
+  width: 503px;
+  text-align: center;
+  height: 63px;
+  border: 0;
+}
+
+.button-blue {
+  height: 63px;
+  background-color: #5474fd;
+  border: 0;
+  border: 2px solid white;
+  color: white;
+  text-align: center;
+  font-family: Aleo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 1.2px;
+}
+
+.button-blue:hover {
+  background-color: blue;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.button-search {
+  width: 153px;
+  border: 2px solid white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.placeholder {
+  font-family: Josefin Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+  text-align: center;
+}
+
+.arrow-text {
+  font-family: Josefin Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+  text-align: center;
+}
+
+.header-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #5474fd;
+  background-size: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-left: 330px;
+  padding-right: 330px;
+  height: 83px;
+}
+
+.link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 12px;
+  font-family: Aleo;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
+.block-2 {
+  background: url(./assets/back2.png) no-repeat;
+  background-size: cover;
+  height: 685px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.button-block2 {
+  width: 228px;
+  border: 0;
+}
+
+.block-in-block2 {
+  text-align: left;
+  margin-right: 110px;
+}
+
+#who {
+  margin-top: 212px;
+  margin-bottom: 50px;
+}
+
+.who {
+  font-family: Aleo;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
+.TEXT-IN-BLOCK2 {
+  max-width: 560px;
+  margin-bottom: 45px;
+  font-family: Josefin Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+  text-align: left;
+}
+
+.image {
+  position: relative;
+}
+
+.image1 {
+  position: absolute;
+  left: 110px;
+  top: 118px;
+}
+
+.image2 {
+  position: absolute;
+  left: 200px;
+  top: 348px;
+}
+
+.block3 {
+  height: 340px;
+  background-color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.block-company {
+  width: 353px;
+  height: 163px;
+}
+
+.image-company {
+  padding: 0 127px;
+}
+
+.description {
+  margin-top: 38px;
+  font-family: Aleo;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+.block4 {
+  background: url(./assets/back3.png) no-repeat;
+  background-size: cover;
+  height: 700px;
+  padding-top: 227px;
+  padding-bottom: 99px;
+  color: #e8e8e8;
+}
+
+.opasity-block {
+  width: 543px;
+  height: 374px;
+  background: #232323;
+  opacity: 90%;
+  padding: 49px 32px 49px 32px;
+}
+
+.spain {
+  margin-bottom: 23px;
+  font-family: Josefin Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+  text-align: left;
+}
+
+h4 {
+  margin-bottom: 13px;
+  font-family: Josefin Sans;
+  font-style: Regular;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
+.fa-quote-left {
+  color: #5474fd;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
+.paragraph {
+  margin-bottom: 46px;
+  font-family: Josefin Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.block5 {
+  background: url(./assets/back4.png) no-repeat;
+  background-size: cover;
+  height: 700px;
+  padding-top: 227px;
+  padding-bottom: 99px;
+  padding-left: 900px;
+}
+
+.block6 {
+  background: url(./assets/back5.png) no-repeat;
+  background-size: cover;
+  height: 731px;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.feedback {
+  background: #333333;
+  padding-top: 49px;
+  padding-left: 62px;
+  padding-right: 62px;
+  height: 286px;
+  width: 668px;
+}
+
+.feedback-text {
+  font-family: Josefin Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
+footer {
+  height: 271px;
+  background-color: #232323;
+}
+
+.what {
+  padding-top: 128px;
+  margin-bottom: 91px;
+  text-align: center;
+}
+
+.bhromaon-end {
+  font-family: Josefin Sans;
+  font-style: Bold;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 3.3px;
+  text-align: center;
+  padding-top: 122px;
+}
+
+.contacts-end {
+  font-family: Josefin Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+  text-align: center;
+  margin-bottom: 17px;
+}
+
+.iframe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.face {
+  width: 39px;
+  height: 26px;
+  fill: white;
+}
+
+.face:hover {
+  fill: blue;
+}
+
+.twitter {
+  width: 45px;
+  height: 26px;
+  fill: white;
+}
+
+.twitter:hover {
+  fill: #1da1f2;
+}
+
+.linkid {
+  width: 45px;
+  height: 26px;
+  fill: white;
+}
+
+.linkid:hover {
+  fill: #0072b1;
+}
+
+.youtube {
+  width: 47px;
+  height: 26px;
+  fill: white;
+}
+
+.youtube:hover {
+  fill: red;
+}
+
+.pinterest {
+  width: 44px;
+  height: 26px;
+  fill: white;
+}
+
+.pinterest:hover {
+  fill: red;
+}
+/*# sourceMappingURL=index.css.map */
