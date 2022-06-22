@@ -53,14 +53,44 @@ console.log(filterList);
 
 function checkBuyProduct(name) {
   return shoppingList.map((item) => {
-    if (name === item.name) {
-      //    return  {
-      //         ...item, buyStatus:true
-      //     }
+    if (name === item.product) {
       item.buyStatus = true;
     }
     return item;
   });
 }
-
 console.log(checkBuyProduct("oil"));
+
+const removeProduct = (productName) => {
+  return shoppingList.filter((item) => item.product !== productName);
+};
+console.log(removeProduct("oil"));
+
+let newProductList;
+const addProduct = (product) => {
+  newProductList = shoppingList.map((item) => {
+    if (item.product === product) {
+      item.amount++;
+      item.summ = item.amount * item.price;
+    }
+    return item;
+  });
+};
+
+const newProduct = shoppingList.find((item) => item.product === product);
+
+if (!newProduct) {
+  newProductList.push({
+    product: product,
+    amount: 1,
+    status: false,
+    price: 10,
+    sum() {
+      return this.amount * this.price;
+    },
+  });
+  
+}
+ 
+
+console.log(addProduct(coconut));

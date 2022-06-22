@@ -40,15 +40,18 @@ const obj1 = {
     let beforeRefuel = this.fuelTankCapacity - this.beenDrived(distance);
     return beforeRefuel;
   },
-  timeLeft(distance, newDriver) {
+  timeLeft(distance, driverName) {
     let time = distance / this.mediumSpeed;
     for (let i = 1; i <= Math.floor(time); i++) {
       if (i % 4 === 0) time = time + 1;
     }
-    console.log(`Your trip will be ${time} hours`)
-    
-      if(this.drivers.age < 18){console.log("You can`t drive")}
-        else console.log("Welcome and drive") ;
+    console.log(`Your trip will be ${time} hours`);
+    const driver = this.drivers.find((item) => {
+      return item.firstName === driverName;
+    });
+    if (driver.age < 18) {
+      console.log("You can`t drive");
+    } else console.log("Welcome and drive");
   },
 };
 
@@ -57,7 +60,6 @@ obj1.addDriver({ firstName: "Nadiya", age: 17 });
 obj1.beenDrived();
 obj1.leftToRefuel();
 obj1.timeLeft(9000, "Alina");
-
 
 // ...дата
 
