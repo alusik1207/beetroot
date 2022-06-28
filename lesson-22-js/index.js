@@ -75,22 +75,19 @@ const addProduct = (product) => {
     }
     return item;
   });
+  const newProduct = shoppingList.find((item) => item.product === product);
+
+  if (!newProduct) {
+    newProductList.push({
+      product: product,
+      amount: 1,
+      status: false,
+      price: 10,
+      sum() {
+        return this.amount * this.price;
+      },
+    });
+  }
+  return newProductList;
 };
-
-const newProduct = shoppingList.find((item) => item.product === product);
-
-if (!newProduct) {
-  newProductList.push({
-    product: product,
-    amount: 1,
-    status: false,
-    price: 10,
-    sum() {
-      return this.amount * this.price;
-    },
-  });
-  
-}
- 
-
-console.log(addProduct(coconut));
+console.log(addProduct("coconut"));
