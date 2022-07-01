@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+#btn-open-modal, #btn-close-modal, .svitlofor {
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: rgba(0, 255, 255, 0.266);
+  font-size: 32px;
+}
+
+#btn-open-modal:hover, #btn-close-modal:hover, .svitlofor:hover {
+  background-color: pink;
+}
+
+#modal-window {
+  width: 500px;
+  height: 250px;
+  position: absolute;
+  right: 50%;
+  left: 25%;
+  background-color: bisque;
+  text-align: center;
+  font-size: 24px;
+  padding: 5px;
+  display: none;
+}
+
+.svitlofor {
+  width: 200px;
+  height: 100px;
+}
+
+.light-room {
+  margin: 20px;
+  background-color: blue;
+  width: 400px;
+  height: 650px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.light {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  background-color: grey;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+/*# sourceMappingURL=index.css.map */
