@@ -1,3 +1,37 @@
-.slick-conteiner{
-    display: flex !important;
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.slick-conteiner {
+  display: flex !important;
+  max-width: 1440px;
+}
+.slick-slider {
+  position: relative;
+}
+span {
+    width: 400px;
+    height: 110px;
+  position: absolute;
+  top: 100px;
+  right: 120px;
+  color: #F8F1EA;
+  // /styleName: H1;/
+
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 61px;
+  text-align: center;
+}
+.view-more{
+    border: 0;
+    border: 2px solid #F8F1EA;
+}
+.slick-dots li {
+  color: #f8f1eab2;
+  width: 20px;
+  height: 20px;
+}
+.slider__dots .slick-active {
+  border-color: red;
 }

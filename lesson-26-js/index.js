@@ -1,3 +1,4 @@
 $('#slick-conteiner').slick({
-dots:true
+dots:true,
+arrow:true,
 })
