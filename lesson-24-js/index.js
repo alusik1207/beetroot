@@ -69,13 +69,17 @@ const lightRoom = document.getElementById("svitlofor");
 const lightRed = document.getElementById("light-red");
 const lightOrange = document.getElementById("light-orange");
 const lightGreen = document.getElementById("light-green");
+const svitlofor=document.getElementById('svitlofor')
 let activeLight=0;
 svitlofor.addEventListener("click", () => {
-  if(activeLight=0){
+  if(activeLight===0){
     lightRed.style.backgroundColor='red'
-  }else if(activeLight=1){
+  }else if(activeLight===1){
+    lightRed.style.backgroundColor='grey'
     lightOrange.style.backgroundColor='orange'
-  }else if(activeLight=2){
+  }else if(activeLight===2){
+    lightRed.style.backgroundColor='grey'
+    lightOrange.style.backgroundColor='grey'
     lightGreen.style.backgroundColor='green'
   }
   activeLight++
