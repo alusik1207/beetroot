@@ -1,37 +1,54 @@
+@import "color.scss";
+
 body {
   max-width: 1440px;
   margin: 0 auto;
 }
 .slick-conteiner {
   display: flex !important;
+  justify-content: space-between;
   max-width: 1440px;
 }
 .slick-slider {
   position: relative;
 }
-span {
+.feed {
     width: 400px;
     height: 110px;
   position: absolute;
   top: 100px;
   right: 120px;
-  color: #F8F1EA;
-  // /styleName: H1;/
-
+  color: $dot-inactive;
   font-size: 50px;
   font-weight: 700;
   line-height: 61px;
   text-align: center;
 }
+button{
+  width: 227px;
+  height: 52px;
+  border: 2px solid $dot-inactive;
+  &:hover{
+    border: 2px solid $tomato;
+    background-color: $tomato-light;
+  }
+}
 .view-more{
-    border: 0;
-    border: 2px solid #F8F1EA;
+
+
+  
 }
 .slick-dots li {
-  color: #f8f1eab2;
+  color: $dot-inactive;
   width: 20px;
   height: 20px;
 }
 .slider__dots .slick-active {
-  border-color: red;
+  border-color: $tomato;
+}
+.description-guitar{
+  font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
 }
